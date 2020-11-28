@@ -1,0 +1,3 @@
+What does application context mean ?
+
+Application context is a bean factory and it loads the beans that are in the context
