@@ -25,3 +25,6 @@ https://www.ivankrizsan.se/my-books/ This awasome guy's book -> Core Spring 5 Ce
 **boot** -> autoconf, actuator, health, yml, war, jar, test
 
 **testing** -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
+
+# This notes and src
+The notes should answer the question by explaining the concept with words while the src should prove the previous theoretical explanation with code.  
