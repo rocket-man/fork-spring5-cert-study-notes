@@ -1,3 +1,20 @@
-What does application context mean ?
+What is meant by application context  ?
 
-Application context is a bean factory and it loads the beans that are in the context
+Overview:
+Application context is a central part of spring applications
+It allows you to retrieve assembled and configured beans.
+
+Application context does the following:
+- Initiates, configures and assembles the beans
+- Manages the bean life cycle
+- Is a bean factory
+- Is a resource loader
+- Pushes event to register event listener
+- Exposes env which allows to resolve properties
+
+Types:
+- AnnotationConfigApplicationContext
+- AnnotationConfigWebApplicationContext
+- ClassPathXmlApplicationContext
+- FileSystemXmlApplicationContent
+- XmlWebApplicationContext
