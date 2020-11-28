@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Runner {
     public static void main(String[] args) {
         // the system behaviour can be change by using profiles.
-        // In this case there are two profiles (1)pdf-report and (2)xsl-report
+        // In this case there are two profiles (1)pdf-report and (2)xls-report
         AnnotationConfigApplicationContext context = getSpringContext("pdf-report");
 
         EmployeesSalariesReportService employeesSalariesReportService = context.getBean(EmployeesSalariesReportService.class);

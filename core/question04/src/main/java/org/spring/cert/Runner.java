@@ -1,6 +1,5 @@
 package org.spring.cert;
 
-import org.spring.cert.ApplicationConfiguration;
 import org.spring.cert.beans.Car;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

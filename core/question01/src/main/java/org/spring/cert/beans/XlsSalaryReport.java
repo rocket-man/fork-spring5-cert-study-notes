@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-@Profile("xsl-report")
-public class XslSalaryReport implements ISalaryReport {
+@Profile("xls-report")
+public class XlsSalaryReport implements ISalaryReport {
     @Override
     public void writeReport(List<EmployeeSalary> employeeSalary) {
         System.out.println("Writing Xsl Report");

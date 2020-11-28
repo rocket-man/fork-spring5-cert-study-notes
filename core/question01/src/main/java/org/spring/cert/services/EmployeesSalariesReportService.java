@@ -1,5 +1,6 @@
 package org.spring.cert.services;
 
+import org.spring.cert.beans.ISalaryReport;
 import org.spring.cert.beans.PdfSalaryReport;
 import org.spring.cert.dao.EmployeeDao;
 import org.spring.cert.ds.Employee;
@@ -16,7 +17,7 @@ public class EmployeesSalariesReportService {
     @Autowired
     private EmployeeSalaryCalculator employeeSalaryCalculator;
     @Autowired
-    private PdfSalaryReport report;
+    private ISalaryReport report;
 
     public void generateReport(){
         List<Employee> allEmployees = employeeDao.findAll();
