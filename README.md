@@ -7,7 +7,7 @@ https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-refe
 # Other Resources
 https://pivotalcontent.s3.amazonaws.com/academy/Spring-Professional-Certification-Study-Guide.pdf
 
-https://www.ivankrizsan.se/my-books/ This awasome guy's book -> Core Spring 5 Certification in Detail 
+https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Certification in Detail 
 
 # Content
 **core** -> container, dependency, ioc...
