@@ -1,6 +1,8 @@
 # spring5-cert-study-notes
 A repository to keep track of the studies on the pursue of the Spring 5 certification
 
+![spring](spring.png)
+
 # Official Spring Framework Documentation
 https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/index.html
 
