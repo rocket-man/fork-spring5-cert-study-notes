@@ -9,18 +9,18 @@ https://pivotalcontent.s3.amazonaws.com/academy/Spring-Professional-Certificatio
 https://www.ivankrizsan.se/my-books/ This awasome guy's book -> Core Spring 5 Certification in Detail 
 
 # Content
-core -> container, dependency, ioc...
+**core** -> container, dependency, ioc...
 
-aop -> aspects
+**aop** -> aspects
 
-data -> jbdc, transactions, jpa, repositories
+**data** -> jbdc, transactions, jpa, repositories
 
-mvc -> web layer, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
+**mvc** -> web layer, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
 
-rest ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus
+**rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus
 
-security -> auth, filter, proxy, chain, context, ** patter, antMatcher, mvcMatcher, @PreAuthorised, @RolesAllowed
+**security** -> auth, filter, proxy, chain, context, ** patter, antMatcher, mvcMatcher, @PreAuthorised, @RolesAllowed
 
-boot -> autoconf, actuator, health, yml, war, jar, test
+**boot** -> autoconf, actuator, health, yml, war, jar, test
 
-testing -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
+**testing** -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
