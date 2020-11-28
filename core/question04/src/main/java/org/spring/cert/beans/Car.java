@@ -1,4 +1,4 @@
-package beans;
+package org.spring.cert.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

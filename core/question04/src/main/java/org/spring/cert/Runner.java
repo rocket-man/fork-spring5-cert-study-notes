@@ -1,8 +1,9 @@
-import beans.Car;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.stereotype.Component;
+package org.spring.cert;
 
-@Component
+import org.spring.cert.ApplicationConfiguration;
+import org.spring.cert.beans.Car;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class Runner {
     public static void main(String[] args) {
         try(AnnotationConfigApplicationContext context =

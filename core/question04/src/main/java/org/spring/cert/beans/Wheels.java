@@ -1,4 +1,4 @@
-package beans;
+package org.spring.cert.beans;
 
 import org.springframework.stereotype.Component;
 
