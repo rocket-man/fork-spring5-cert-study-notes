@@ -3,43 +3,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>spring5-cert-study-notes</groupId>
-        <artifactId>spring-cert</artifactId>
+        <artifactId>question06</artifactId>
+        <groupId>spring-cert-core</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>spring-cert-core</groupId>
-    <artifactId>core</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>question01</module>
-        <module>question04</module>
-        <module>question02</module>
-        <module>question03</module>
-        <module>question05</module>
-        <module>question06</module>
-    </modules>
+    <artifactId>web-servlet2</artifactId>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.2.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>5.2.4.RELEASE</version>
-            <scope>test</scope>
+            <artifactId>spring-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.2.4.RELEASE</version>
+            <artifactId>spring-webmvc</artifactId>
         </dependency>
-
     </dependencies>
-
-
 </project>
