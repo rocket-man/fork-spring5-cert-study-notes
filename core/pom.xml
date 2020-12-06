@@ -22,6 +22,7 @@
         <module>question07</module>
         <module>question08</module>
         <module>question09</module>
+        <module>question10</module>
     </modules>
 
     <dependencies>
