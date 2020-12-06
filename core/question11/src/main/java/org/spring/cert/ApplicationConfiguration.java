@@ -1,0 +1,27 @@
+package org.spring.cert;
+
+import org.spring.cert.beans.SpringBean7;
+import org.spring.cert.beans.SpringBean8;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+
+//@ComponentScan
+@ComponentScan( lazyInit = true)
+@Configuration
+//@Lazy
+public class ApplicationConfiguration {
+
+    @Bean
+//    @Lazy
+    public SpringBean7 springBean7(){
+        return new SpringBean7();
+    }
+
+    @Bean
+//    @Lazy(false)
+    public SpringBean8 springBean8(){
+        return new SpringBean8();
+    }
+}
