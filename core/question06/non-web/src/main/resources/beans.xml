@@ -4,13 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="springBean1" class="org.spring.cert.beans.SpringBean1">
+    <bean id="springBean1" class="org.spring.SpringBean1">
         <property name="springBean2" ref="springBean2"/>
         <property name="springBean3" ref="springBean3"/>
     </bean>
 
-    <bean id="springBean2" class="org.spring.cert.beans.SpringBean2"/>
+    <bean id="springBean2" class="org.spring.SpringBean2"/>
 
-    <bean id="springBean3" class="org.spring.cert.beans.SpringBean3"/>
+    <bean id="springBean3" class="org.spring.SpringBean3"/>
 
 </beans>
