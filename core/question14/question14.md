@@ -1,8 +1,8 @@
 # What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do? When are they called?
 BeanPostProcessor is an interface that allows you to create extensions to Spring Framework that will modify Spring Bean 
 objects during initialization. This interface contains two methods:
-- ```java postProcessBeforeInitialization ```
-- ```java postProcessAfterInitialization ```
+- ```postProcessBeforeInitialization ```
+- ```postProcessAfterInitialization ```
 
 Implementing those methods allows you to modify created and assembled bean objects or even switch objects that will represent the bean
   
@@ -10,14 +10,14 @@ Main difference compared to BeanFactoryPostProcessor is that BeanFactoryPostProc
 
 BeanFactoryPostProcessor and BeanPostProcessor in Spring Container lifecycle:
 1. Bean Definitions are created based on Spring Bean Configuration.
-2. ```java BeanFactoryPostProcessors ``` are invoked.
+2. ```BeanFactoryPostProcessors ``` are invoked.
 3. Instance of Bean is created.
 4. Properties and Dependencies are set.
-5. ```java BeanPostProcessor::postProcessBeforeInitialization ``` gets called.
+5. ```BeanPostProcessor::postProcessBeforeInitialization ``` gets called.
 6. @PostConstruct method gets called.
 7. InitializingBean::afterPropertiesSet method gets called.
 8. @Bean(initMethod) method gets called.
-9. ```java BeanPostProcessor::postProcessorAfterInitialization ``` gets called
+9. ```BeanPostProcessor::postProcessorAfterInitialization ``` gets called
 
 Recommended way to define BeanPostProcessor is through static @Bean method Application Configuration. This is because 
 BeanPostProcessor should be created early, before other bean objects are ready
