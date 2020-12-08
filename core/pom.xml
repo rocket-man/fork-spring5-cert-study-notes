@@ -34,6 +34,7 @@
         <module>question19</module>
         <module>question20</module>
         <module>question21</module>
+        <module>question22</module>
     </modules>
 
     <dependencies>
