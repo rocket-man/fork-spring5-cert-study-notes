@@ -6,11 +6,11 @@ If method annotated with ```@Bean``` does not have ```@Profile``` the bean will 
 
 You can specify one, multiple profiles, or profile in which bean should not exist: 
 
-```@Profile("database)```
-
-```@Profile("!prod)```
-
-```@Profile({"database","file"})```
+```java
+@Profile("database)
+@Profile("!prod)
+@Profile({"database","file"})
+```
 
 Any bean that does not specify a profile belongs to the ```default``` profile
 
