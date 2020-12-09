@@ -4,6 +4,8 @@ code of proxied object. Proxy objects have the same public methods as the object
 much as possible indistinguishable from proxied object. When method is invoked on Proxy Object, additional code, usually
 before and after sections are invoked, also code from proxied object is invoked by Proxy Object.
 
+![proxy](../../proxy.png)
+
 Spring Framework supports two kind of proxies:
 - JDK Dynamic Proxy -> used by default if target object implements interface
 - CGLIB Proxy -> used when target does not implement any interface
