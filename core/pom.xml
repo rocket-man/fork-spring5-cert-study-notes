@@ -40,6 +40,7 @@
         <module>question25</module>
         <module>question26</module>
         <module>question27</module>
+        <module>question28</module>
     </modules>
 
     <dependencies>
