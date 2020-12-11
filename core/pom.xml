@@ -41,6 +41,8 @@
         <module>question26</module>
         <module>question27</module>
         <module>question28</module>
+        <module>question29</module>
+        <module>question30</module>
     </modules>
 
     <dependencies>
@@ -69,6 +71,11 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-expression</artifactId>
+            <version>5.2.4.RELEASE</version>
         </dependency>
     </dependencies>
 
