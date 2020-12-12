@@ -1,4 +1,4 @@
-# Can you describe: Dependency injection using Java configuration? Dependency injection using annotations(@Component, @Autowired)? Component scanning, Stereotypes and Meta-Annotations? Scopes for Spring beans? What is the default scope ?  
+# Can you describe: Dependency injection using Java configuration? Dependency injection using annotations (@Component, @Autowired)? Component scanning, Stereotypes and Meta-Annotations? Scopes for Spring beans? What is the default scope ?  
 
 Dependency injection using java configuration:
 
