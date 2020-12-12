@@ -19,4 +19,4 @@ Advantages of interfaces in Java:
 Advantages in Spring:
 - Allows use of JDK Dynamic Proxy
 - Allows implementation hiding
-- Allows to easily switch beans
+- Allows to easily switch beans 
