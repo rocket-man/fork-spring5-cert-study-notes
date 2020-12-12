@@ -10,4 +10,4 @@ instead objects declare dependencies that they need (using autowired annotation)
 ## Advantages:
 - Increases code re-usability, readability, maintainability and testability
 - Reduces coupling
-- Increases cohesion
+- Increases cohesion 
