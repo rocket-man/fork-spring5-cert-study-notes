@@ -13,7 +13,6 @@ Altering behaviour:
 @ComponentScan(lazyInit = true)
 ```
 
-
 - You can also change default behaviour by using @Lazy annotation
     - @Lazy annotation takes one parameter - Whether lazy initialization should occur
     - By default, @Lazy is used to mark bean as lazily instantiated
