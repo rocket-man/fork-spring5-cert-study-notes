@@ -5,7 +5,7 @@ objects during initialization. This interface contains two methods:
 - ```postProcessAfterInitialization ```
 
 Implementing those methods allows you to modify created and assembled bean objects or even switch objects that will represent the bean
-  
+   
 Main difference compared to BeanFactoryPostProcessor is that BeanFactoryPostProcessor works with Bean Definitions while BeanPostProcessor works with Bean objects.
 
 BeanFactoryPostProcessor and BeanPostProcessor in Spring Container lifecycle:
