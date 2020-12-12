@@ -1,4 +1,4 @@
-# What is the concept of a "container" what is its lifecycle ?
+# What is the concept of a "container" what is its lifecycle?
 
 Container is an execution environment which provides additional technical services for your code to use. 
 Usually containers use IoC technique, that allows you to focus on creating business aspect of the code,
