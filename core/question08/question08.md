@@ -1,4 +1,4 @@
-# How are you going to create an ApplicationContext in an integration test ?
+# How are you going to create an ApplicationContext in an integration test?
 - Make sure that you have spring test dependency added
     - groupId: org.springframework
     - artifactId: spring-test 
