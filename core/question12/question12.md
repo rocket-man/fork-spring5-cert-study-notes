@@ -18,6 +18,6 @@ You read properties with usage of @PropertySource or @PropertySources annotation
 You access properties with usage of @Value annotation:
 ```java
 @Value("${db.host}")
-private String dbHost;
+private String dbHost; 
 ```
 
