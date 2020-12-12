@@ -1,5 +1,4 @@
 # What is a BeanFactoryPostProcessor and what is it used for? When is it invoked? Why would you define a static @Bean method? What is a PropertySourcesPlaceHolderConfigurer used for?
-
 BeanFactoryPostProcessor is an interface that contains a single method postProcessorBeanFactory, implementing it allows 
 you to create logic that modifies Spring Bean Metadata before any Bean is created. BeanFactoryProcessor does not create 
 any beans, however it can access and alter Metadata that is used later to create Beans.
