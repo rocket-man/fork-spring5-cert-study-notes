@@ -1,4 +1,4 @@
-# What is the preferred way to close an application context ? Does Spring Boot do this for you ?
+# What is the preferred way to close an application context? Does Spring Boot do this for you?
 It depends on the type of application you are creating:
 
 - Standalone Non-Web Applications
