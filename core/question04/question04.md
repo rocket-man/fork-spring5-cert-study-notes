@@ -1,4 +1,4 @@
-# What is meant by application context  ?
+# What is meant by application context?
 
 ## Overview:
 Application context is a central part of spring applications
