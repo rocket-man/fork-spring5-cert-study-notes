@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>aop-question01</module>
+        <module>aop-question02</module>
     </modules>
 
     <properties>
