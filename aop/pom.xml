@@ -17,6 +17,7 @@
         <module>aop-question03</module>
         <module>aop-question04</module>
         <module>aop-question05</module>
+        <module>aop-question06</module>
     </modules>
 
     <properties>
