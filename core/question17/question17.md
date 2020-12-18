@@ -1,10 +1,10 @@
 # What do you have to do, if you would like to inject something into a private field? How does this impact testing?
-Injection of dependency into a private field can be done with ```java @Autowired``` annotation:
+Injection of dependency into a private field can be done with ``` @Autowired``` annotation:
 ```java
 @Autowired
 private ReportWriter reportWriter;
 ```
-Injection of property into a private field can be done with ```java @Value``` annotation:
+Injection of property into a private field can be done with ``` @Value``` annotation:
 ```java 
 @Value("${report.global.name}")
 private String reportGlobalName;
