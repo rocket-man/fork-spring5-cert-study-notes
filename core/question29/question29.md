@@ -1,6 +1,6 @@
 # What is @Value used for?
 ```@Value``` is used for:
-- Setting simple values of Spring Bean Fields, Method Parameters, Constructor Parameters
+- Setting simple values of Spring Bean Fields, Method Parameters, Constructor Parameters.
 - Injecting property/environment values into Spring Bean fields, Method Parameters, Constructor Parameters
 - Injecting results of SpEL experssions into Spring Bean fields, Method Parameters, Constructor Parameters
 - Injecting values from other Spring Beans into Spring Bean fields, Method Parameters, Constructor Parameters
