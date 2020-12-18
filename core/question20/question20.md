@@ -1,11 +1,11 @@
-# What are the advantages of Java Config? What are the limitations@
+# What are the advantages of Java Config? What are the limitations?
 Advantages of Java Config over XML Config:
 - Compile Time Feedback due to Type-checking
 - Refactoring Tools for Java without special support/plugin work out of the box with Java Config (special support needed for XML Config)
 
 Advantages of Java Config over Annotation Based Config:
 - Separation of concerns -> bean configuration is separated from bean implementation
-- Technology agnostic -> beans may not depend on concrete IoC/DI implentation (makes it easier to switch technologies)
+- Technology agnostic -> beans may not depend on concrete IoC/DI implementation (makes it easier to switch technologies)
 - Ability to integrate Spring with external libraries
 - More centralized location of bean list
 
