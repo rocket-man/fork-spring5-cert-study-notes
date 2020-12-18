@@ -20,6 +20,7 @@
         <module>aop-question06</module>
         <module>aop-question07</module>
         <module>aop-question08</module>
+        <module>aop-question09</module>
     </modules>
 
     <properties>
