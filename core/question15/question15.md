@@ -2,6 +2,7 @@
 - Component Scanning
 Is the process in which Spring is scanning the classpath in search for classes annotated with stereotype annotations 
 (@Component, @Repository, @Service, @Controller, ...) and based on those it creates bean definitions.
+  
 
 - Simple component scanning within Configuration package and all subpackages 
 ```java
