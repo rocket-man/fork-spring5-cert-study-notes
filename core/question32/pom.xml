@@ -12,7 +12,7 @@
     <artifactId>question32</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>question32-stadalone</module>
+        <module>question32-springboot</module>
         <module>question32-stadalone</module>
     </modules>
 
