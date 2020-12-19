@@ -17,7 +17,7 @@
     <modules>
         <module>core</module>
         <module>aop</module>
-        <module>apo</module>
+        <module>data</module>
     </modules>
 
     <dependencyManagement>
