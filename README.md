@@ -14,7 +14,7 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 # Content
 **core** -> container, dependency, ioc...
 
-**aop** -> aspects
+**aop** -> aspects, advice, join point, point cut, weaving, AOP Proxy
 
 **data** -> jbdc, transactions, jpa, repositories
 
