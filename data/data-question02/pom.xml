@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>data-question02-standalone</module>
+        <module>data-question02-boot</module>
+        <module>data-question02-embedded-builder</module>
     </modules>
 
     <properties>
