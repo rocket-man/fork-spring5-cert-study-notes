@@ -12,11 +12,11 @@ https://pivotalcontent.s3.amazonaws.com/academy/Spring-Professional-Certificatio
 https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Certification in Detail 
 
 # Content
-**core** -> container, dependency, ioc...
+**core** -> application-context, life-cycle of Spring beans, AnnotationConfigApplicationContext, FileSystemXmlApplicationContext, BeanFactoryPostProcessor,       BeanPostProcessor, ContextLoaderListener, AbstractDispatcherServletInitializer, @ContextConfiguration, @RunWith(SpringRunner.class), @SpringJUnitConfig,   registerShutdownHook, Bean Scopes, @Component, @Autowired, @ComponentScan, @Qualifier, @Configuration, @Lazy, @Profile, @PropertySource, ProperySourcesPlaceholderConfigurer, @PreDestroy, @PostConstruct, JSR-250, Java Config, @Bean, @Value("# , SpEL, StandardServletEnvironment
 
-**aop** -> aspects, advice, join point, point cut, weaving, AOP Proxy
+**aop** -> Cross cutting concern, Pointcut, join point, advice, aspect, weaving, JDK dynamic proxies, CGLIB proxies, @Before, @AfterReturning, @After, @Around, @EnableAspectJAutoProxy, execution(*, within(, ProceedingJoinPoint
 
-**data** -> jbdc, transactions, jpa, repositories
+**data** -> DataSource, JndiDataSourceLookup, JdbcTemplate, callbacks: ResultSetExtractor, RowCallbackHandler, RowMapper, batchUpdate, execute, query, queryForList, queryForMap, queryForObject, queryForRowSet, update, @Transactional, a local and a global transaction, The transaction isolation level, noRollbackFor, noRollbackForClassName, propagation, readOnly, rollbackFor, PlatformTransactionManager?, @EnableTransactionManagement, declarative transaction management
 
 **mvc** -> web layer, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
 
