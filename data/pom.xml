@@ -16,6 +16,7 @@
         <module>data-question02</module>
         <module>data-question03</module>
         <module>data-question04</module>
+        <module>data-question05</module>
     </modules>
 
     <properties>
