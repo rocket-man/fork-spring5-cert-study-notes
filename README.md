@@ -6,7 +6,9 @@ A repository to keep track of the studies on the pursue of the Spring 5 certific
 # Official Spring Framework Documentation
 https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/index.html
 
-# Other Resources
+# Resources
+https://www.udemy.com/course/spring-professional-certification-exam-tutorial-module-03/ by Dominik Cebula
+
 https://pivotalcontent.s3.amazonaws.com/academy/Spring-Professional-Certification-Study-Guide.pdf
 
 https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Certification in Detail 
