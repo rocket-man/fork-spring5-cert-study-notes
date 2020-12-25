@@ -23,6 +23,7 @@
         <module>data-question09</module>
         <module>data-question10</module>
         <module>data-question11</module>
+        <module>data-question12</module>
     </modules>
 
     <properties>
