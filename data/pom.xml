@@ -35,6 +35,7 @@
         <module>data-question21</module>
         <module>data-question22</module>
         <module>data-question23</module>
+        <module>data-question24</module>
     </modules>
 
     <properties>
