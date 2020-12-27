@@ -32,7 +32,7 @@ Language Reference:
 
 SpEL expressions are usually interpreted during runtime, this is good since it provides a lot of dynamic features. 
 However, in some cases performance is more important than number of features available, for those cases Spring Framework
-4.1 introduce possibility to compile expressions.
+4.1 introduce possibility to compile expressions
 
 Compilation of Spring Expressions is done by creating real Java Class that embodies expressions, this results in much faster
 Expression Evaluation. Because during compilation, reference types of properties are unknown, Compiled Expressions are best 
