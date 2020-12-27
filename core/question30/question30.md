@@ -53,4 +53,4 @@ Compiled Mode does not support following expressions:
 - Expression involving assignment
 - Expression relying on the conversation service
 - Expression using custom resolvers or accessors
-- Expression using selection or projection
+- Expression using selection or projection.
