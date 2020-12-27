@@ -33,5 +33,5 @@ Property Sources for Spring Boot Applications:
 - application-{profile}.properties and YAML variants - inside of JAR
 - application.properties and YAML variants - inside JAR
 - ```@PropertySource``` annotations on ```@Configuration``` classes
-- Default properties - SpringApplication.setDefaultProperties
+- Default properties - SpringApplication.setDefaultProperties.
 
