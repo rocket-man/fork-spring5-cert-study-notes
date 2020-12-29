@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>data-question15-aspectj</module>
-        <module>untitled</module>
+        <module>data-question15-spring-proxy</module>
     </modules>
 
     <properties>
