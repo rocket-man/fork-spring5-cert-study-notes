@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.sql.Date;
 import java.util.concurrent.CountDownLatch;
 
-@Getter
 abstract class AbstractIsolationExample {
     @Autowired
     private EmployeeDao employeeDao;
@@ -27,5 +26,29 @@ abstract class AbstractIsolationExample {
     void writeOperation() {
         employeeDao.saveEmployee(new Employee(4, "Mary", "Duncan", "Mary.Duncam@cor.com", "555-55-60", Date.valueOf("2019-07-30"), 130000));
         employeeDao.maskEmail(6);
+    }
+
+    public EmployeeDao getEmployeeDao() {
+        return employeeDao;
+    }
+
+    public CountDownLatch getFistReadOnUnsavedAndNotCommittedLatch() {
+        return fistReadOnUnsavedAndNotCommittedLatch;
+    }
+
+    public CountDownLatch getSecondReadOnSavedButNotCommittedLatch() {
+        return secondReadOnSavedButNotCommittedLatch;
+    }
+
+    public CountDownLatch getWriteDoneNotCommittedLatch() {
+        return writeDoneNotCommittedLatch;
+    }
+
+    public CountDownLatch getWriteDoneAndCommittedLatch() {
+        return writeDoneAndCommittedLatch;
+    }
+
+    public CountDownLatch getReadWriteLatch() {
+        return readWriteLatch;
     }
 }

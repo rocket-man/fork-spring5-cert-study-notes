@@ -17,7 +17,7 @@ public class TransactionIsolationExampleInvoker {
 
     private ExecutorService executorService = Executors.newFixedThreadPool(2);
 
-    public void execute() {
+    public void execute() throws InterruptedException {
         System.out.println("Starting Repeatable Read Example");
 
         executorService.execute(() -> {
