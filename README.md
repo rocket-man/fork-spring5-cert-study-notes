@@ -18,7 +18,10 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 
 **aop** -> Cross cutting concern, Pointcut, join point, advice, aspect, weaving, JDK dynamic proxies, CGLIB proxies, @Before, @AfterReturning, @After, @Around, @EnableAspectJAutoProxy, execution(*, within(, ProceedingJoinPoint
 
-**data** -> (JDBC) => DataSource, JndiDataSourceLookup, JdbcTemplate, callbacks: ResultSetExtractor, RowCallbackHandler, RowMapper, batchUpdate, execute, query, queryForList, queryForMap, queryForObject, queryForRowSet, update; (Transactions) => @Transactional, a local and a global transaction, The transaction isolation level, noRollbackFor, noRollbackForClassName, propagation, readOnly, rollbackFor, PlatformTransactionManager?, @EnableTransactionManagement, declarative transaction management; (JPA) => DataSource, EmbeddedDatabase, spring.datasource.jndi-name, PlatformTransactionManager, ORM, PersistenceContext, EntityManager, @Entity, Spring Data repository, @EnableJpaRepositories, find(First[count])By[property expression], @Query
+**data** -> 
+  - (JDBC) => DataSource, JndiDataSourceLookup, JdbcTemplate, callbacks: ResultSetExtractor, RowCallbackHandler, RowMapper, batchUpdate, execute, query, queryForList, queryForMap, queryForObject, queryForRowSet, update; 
+  - (Transactions) => @Transactional, a local and a global transaction, The transaction isolation level, noRollbackFor, noRollbackForClassName, propagation, readOnly, rollbackFor, PlatformTransactionManager?, @EnableTransactionManagement, declarative transaction management; 
+  - (JPA) => DataSource, EmbeddedDatabase, spring.datasource.jndi-name, PlatformTransactionManager, ORM, PersistenceContext, EntityManager, @Entity, Spring Data repository, @EnableJpaRepositories, find(First[count])By[property expression], @Query
 
 **mvc** -> web layer, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
 
