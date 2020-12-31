@@ -22,6 +22,7 @@
         <module>boot-question08</module>
         <module>boot-question09</module>
         <module>boot-question10</module>
+        <module>boot-question11</module>
     </modules>
 
     <properties>
