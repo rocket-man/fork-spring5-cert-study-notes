@@ -29,7 +29,9 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 
 **security** -> auth, filter, proxy, chain, context, ** patter, antMatcher, mvcMatcher, @PreAuthorised, @RolesAllowed
 
-**boot** -> @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories, application.properties, YAML, @SpringBootApplication, @EnableAutoConfiguration, @EntityScan, @SpringBootConfiguration, @LocalServerPort, @SpringBootTest, @WebMvcTest, Jetty
+**boot** -> 
+  - (intro) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories, application.properties, YAML, @SpringBootApplication, @EnableAutoConfiguration, @EntityScan, Logging, @SpringBootConfiguration, Fat Jar, Uber Jar Embedded Containers: Tomcat, Jetty and Undertow
+  - (auto-configuration) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories
 
 **testing** -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
 
