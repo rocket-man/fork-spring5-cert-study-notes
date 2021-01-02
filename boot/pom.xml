@@ -33,6 +33,7 @@
         <module>boot-question19</module>
         <module>boot-question20</module>
         <module>boot-question21</module>
+        <module>boot-question22</module>
     </modules>
 
     <properties>
