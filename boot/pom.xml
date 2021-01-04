@@ -38,6 +38,7 @@
         <module>boot-question24</module>
         <module>boot-question25</module>
         <module>boot-question26</module>
+        <module>boot-question27</module>
     </modules>
 
     <properties>
