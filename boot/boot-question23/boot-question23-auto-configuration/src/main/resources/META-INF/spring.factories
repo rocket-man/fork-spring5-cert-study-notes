@@ -1,0 +1,7 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.spring.cert.db.HsqlDbAutoConfiguration,\
+org.spring.cert.java.java8.Java8AutoConfiguration,\
+org.spring.cert.java.java9.Java9AutoConfiguration,\
+org.spring.cert.filestore.local.LocalFileStoreAutoConfiguration,\
+org.spring.cert.filestore.network.NetworkFileStoreAutoConfiguration
