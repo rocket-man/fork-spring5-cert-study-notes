@@ -45,6 +45,7 @@
         <module>boot-question31</module>
         <module>boot-question32</module>
         <module>boot-question33</module>
+        <module>boot-question34</module>
     </modules>
 
     <properties>
