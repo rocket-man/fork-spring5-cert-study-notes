@@ -33,6 +33,8 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 **boot** -> 
   - (intro) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories, application.properties, YAML, @SpringBootApplication, @EnableAutoConfiguration, @EntityScan, Logging, @SpringBootConfiguration, Fat Jar, Uber Jar Embedded Containers: Tomcat, Jetty and Undertow
   - (auto-configuration) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories
+  - (actuator) => list of prod ready endpoints, /actuator/info, /actuator/health, HealthIndicators, CustomHealthIndicator, management.endpoint.health.status.order, mapping, metrics, 3rd party external monitoring systems
+  
 
 **testing** -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
 
