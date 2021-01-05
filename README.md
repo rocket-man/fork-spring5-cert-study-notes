@@ -22,7 +22,6 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
   - (JDBC) => DataSource, JndiDataSourceLookup, JdbcTemplate, callbacks: ResultSetExtractor, RowCallbackHandler, RowMapper, batchUpdate, execute, query, queryForList, queryForMap, queryForObject, queryForRowSet, update; 
   - (Transactions) => @Transactional, a local and a global transaction, The transaction isolation level, noRollbackFor, noRollbackForClassName, propagation, readOnly, rollbackFor, PlatformTransactionManager?, @EnableTransactionManagement, declarative transaction management; 
   - (JPA) => DataSource, EmbeddedDatabase, spring.datasource.jndi-name, PlatformTransactionManager, ORM, PersistenceContext, EntityManager, @Entity, Spring Data repository, @EnableJpaRepositories, find(First[count])By[property expression], @Query
-  - (actuator) => HTTP, JMX, /health, /info, Logging level
 
 **mvc** -> web layer, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
 
@@ -33,8 +32,8 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 **boot** -> 
   - (intro) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories, application.properties, YAML, @SpringBootApplication, @EnableAutoConfiguration, @EntityScan, Logging, @SpringBootConfiguration, Fat Jar, Uber Jar Embedded Containers: Tomcat, Jetty and Undertow
   - (auto-configuration) => @SpringBootApplication, spring-boot-starter-parent, spring-boot-devtools, @Configuration, @ConfigurationProperties, Automatic configuration; @ConditionalOnClass, @ConditionalOnWebApplication, ..., META-INF/spring.factories
-  - (actuator) => list of prod ready endpoints, /actuator/info, /actuator/health, HealthIndicators, CustomHealthIndicator, management.endpoint.health.status.order, mapping, metrics, 3rd party external monitoring systems
-  
+  - (actuator) =>  HTTP, JMX, Logging level, list of prod ready endpoints, /actuator/info, /actuator/health, HealthIndicators, CustomHealthIndicator, management.endpoint.health.status.order, mapping, metrics, 3rd party external monitoring systems
+  - (testing) => @SpringBootTest
 
 **testing** -> integration, transactional, mockito, easymock, @ContextConfiguration, @SpringBootTest, @SpringBootApplication, @SpringBootConfiguration
 
