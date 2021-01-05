@@ -43,6 +43,7 @@
         <module>boot-question29</module>
         <module>boot-question30</module>
         <module>boot-question31</module>
+        <module>boot-question32</module>
     </modules>
 
     <properties>
