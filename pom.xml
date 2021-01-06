@@ -19,6 +19,7 @@
         <module>aop</module>
         <module>data</module>
         <module>boot</module>
+        <module>security</module>
     </modules>
 
     <build>
@@ -198,6 +199,27 @@
                 <artifactId>h2</artifactId>
                 <version>1.4.200</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>2.4.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.thymeleaf.extras</groupId>
+                <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+                <version>3.0.4.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <version>2.2.5.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>2.0.1.Final</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
