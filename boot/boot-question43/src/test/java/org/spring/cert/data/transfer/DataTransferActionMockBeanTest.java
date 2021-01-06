@@ -1,12 +1,14 @@
 package org.spring.cert.data.transfer;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.spring.cert.data.layer.FtpDataLayer;
 import org.spring.cert.data.layer.HttpDataLayer;
 import org.spring.cert.ds.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
@@ -18,6 +20,7 @@ import static org.mockito.Mockito.when;
 
 //@RunWith(SpringRunner.class)
 @SpringBootTest
+@ExtendWith(SpringExtension.class)
 public class DataTransferActionMockBeanTest {
 
     @Autowired

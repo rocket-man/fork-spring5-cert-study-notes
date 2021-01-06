@@ -1,12 +1,14 @@
 package org.spring.cert.data.transfer;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.spring.cert.data.layer.FtpDataLayer;
 import org.spring.cert.data.layer.HttpDataLayer;
 import org.spring.cert.ds.Person;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,6 +17,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 //@RunWith(MockitoJUnitRunner.class)
+@ExtendWith(SpringExtension.class)
 public class DataTransferActionMockitoInjectTest {
 
     @InjectMocks
