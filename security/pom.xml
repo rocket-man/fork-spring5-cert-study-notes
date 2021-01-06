@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>security-question01</module>
+        <module>security-question02</module>
     </modules>
 
     <properties>
