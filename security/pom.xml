@@ -16,6 +16,7 @@
         <module>security-question02</module>
         <module>security-question03</module>
         <module>security-question04</module>
+        <module>security-question05</module>
     </modules>
 
     <properties>
