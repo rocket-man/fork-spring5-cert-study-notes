@@ -23,6 +23,7 @@
         <module>security-question09</module>
         <module>security-question10</module>
         <module>security-question11</module>
+        <module>security-question12</module>
     </modules>
 
     <properties>
