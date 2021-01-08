@@ -6,12 +6,12 @@ Spring security supports SpEL expressions in following annotations:
 ```
 -```@PostAuthorize```
 ```java
-@PreAuthorize("hasRole('ROLE_CUSTOMER_QA') && returnObject.firstName.equals('TEST')")
+@PostAuthorize("hasRole('ROLE_CUSTOMER_QA') && returnObject.firstName.equals('TEST')")
 ```
 
 -```@PreFilter```
 ```java
-@PreAuthorize("hasRole('ROLE_CUSTOMER_QA') && filterObject.firstName.equals('TEST')")
+@PreFilter("hasRole('ROLE_CUSTOMER_QA') && filterObject.firstName.equals('TEST')")
 ```
 
 -```@PostFilter```
