@@ -4,7 +4,7 @@ A repository to keep track of the studies on the pursue of the Spring 5 certific
 ![spring](spring.png)
 
 # Official Spring Framework Documentation
-https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/index.html
+https://docs.spring.io/spring-framework/docs/5.0.5.RELEASE/spring-framework-reference/index.html.
 
 # Resources
 https://www.udemy.com/course/spring-professional-certification-exam-tutorial-module-03/ by Dominik Cebula
