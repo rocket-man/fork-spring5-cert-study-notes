@@ -18,6 +18,7 @@
         <module>mvc-question04</module>
         <module>mvc-question05</module>
         <module>mvc-question06</module>
+        <module>mvc-question07</module>
     </modules>
 
     <properties>
