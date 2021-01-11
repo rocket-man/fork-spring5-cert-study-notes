@@ -20,6 +20,7 @@
         <module>mvc-question06</module>
         <module>mvc-question07</module>
         <module>mvc-question08</module>
+        <module>mvc-question09</module>
     </modules>
 
     <properties>
