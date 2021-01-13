@@ -22,6 +22,7 @@
         <module>mvc-question08</module>
         <module>mvc-question09</module>
         <module>mvc-question10</module>
+        <module>mvc-question11</module>
     </modules>
 
     <properties>
