@@ -23,8 +23,11 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
   - (Transactions) => @Transactional, a local and a global transaction, The transaction isolation level, noRollbackFor, noRollbackForClassName, propagation, readOnly, rollbackFor, PlatformTransactionManager?, @EnableTransactionManagement, declarative transaction management; 
   - (JPA) => DataSource, EmbeddedDatabase, spring.datasource.jndi-name, PlatformTransactionManager, ORM, PersistenceContext, EntityManager, @Entity, Spring Data repository, @EnableJpaRepositories, find(First[count])By[property expression], @Query
 
-**mvc** -> web layer, DispatcherServlet, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
-
+**mvc** -> web layer, DispatcherServlet, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable, 
+  - (param types) => WebRequest, NativeWebRequest, ServletRequest, HttpSession, ServletResponse, PushBuilder, Principal, HttpMethod, Locale, TimeZone, InputStream, OutputStream, HttpEntity<B>, Map, Model, ModelMap, RedirectAttributes, Errors, BindingResult, SessionStatus, @SessionAttributes 
+  - (annotation types) => @RequestParam, @PathVariable, @MatrixVariable, @CookieValue, @RequestHeader, @RequestBody, @RequestPart, @RequestAttribute, @ModelAttribute, @SessionAttribute
+  - (return types) => @ResponseBody, HttpEntity<B>, ResponseEntity<B>,HttpHeaders, String, View, Map, Model, @ModelAttribute, ModelAndView, void, DeferredResult<V>, Callable<V>, ListenableFuture<V>, CompletableFuture<V>, CompletionStage<V>, ResponseBodyEmitter, SseEmitter, StreamingResponseBody
+  
 **rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus
 
 **security** -> authorisation, authetication, WebSecurityConfigurerAdapter class, @EnableWebSecurity, DelegatingFilterProxy,** patter, antMatcher, mvcMatcher, @EnableGlobalMethodSecurity, @RolesAllowed, @PreFilter, @PostFilter, @PreAuthorize, @PostAuthorize
