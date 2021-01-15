@@ -14,7 +14,7 @@ https://pivotalcontent.s3.amazonaws.com/academy/Spring-Professional-Certificatio
 https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Certification in Detail 
 
 # Content
-**core** -> application-context, life-cycle of Spring beans, AnnotationConfigApplicationContext, FileSystemXmlApplicationContext, BeanFactoryPostProcessor,       BeanPostProcessor, ContextLoaderListener, AbstractDispatcherServletInitializer, @ContextConfiguration, @RunWith(SpringRunner.class), @SpringJUnitConfig,   registerShutdownHook, Bean Scopes, @Component, @Autowired, @ComponentScan, @Qualifier, @Configuration, @Lazy, @Profile, @PropertySource, ProperySourcesPlaceholderConfigurer, @PreDestroy, @PostConstruct, JSR-250, Java Config, @Bean, @Value("# , SpEL, StandardServletEnvironment
+**core** -> application-context, life-cycle of Spring beans, AnnotationConfigApplicationContext, FileSystemXmlApplicationContext, BeanFactoryPostProcessor, BeanPostProcessor, ContextLoaderListener, AbstractDispatcherServletInitializer, @ContextConfiguration, @RunWith(SpringRunner.class), @SpringJUnitConfig, registerShutdownHook, Bean Scopes, @Component, @Autowired, @ComponentScan, @Qualifier, @Configuration, @Lazy, @Profile, @PropertySource, ProperySourcesPlaceholderConfigurer, @PreDestroy, @PostConstruct, JSR-250, Java Config, @Bean, @Value("# , SpEL, StandardServletEnvironment
 
 **aop** -> Cross cutting concern, Pointcut, join point, advice, aspect, weaving, JDK dynamic proxies, CGLIB proxies, @Before, @AfterReturning, @After, @Around, @EnableAspectJAutoProxy, execution(*, within(, ProceedingJoinPoint
 
@@ -24,7 +24,10 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
   - (JPA) => DataSource, EmbeddedDatabase, spring.datasource.jndi-name, PlatformTransactionManager, ORM, PersistenceContext, EntityManager, @Entity, Spring Data repository, @EnableJpaRepositories, find(First[count])By[property expression], @Query
 
 **mvc** -> web layer, DispatcherServlet, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
-
+  - (param types) => WebRequest, NativeWebRequest, ServletRequest, HttpSession, ServletResponse, PushBuilder, Principal, HttpMethod, Locale, TimeZone, InputStream, OutputStream, HttpEntity<B>,Map, Model, RedirectAttributes, Errors, BindingResult, SessionStatus, @SessionAttributes 
+  - (annotation types) => @RequestParam, @PathVariable, @MatrixVariable, @CookieValue, @RequestHeader, @RequestBody, @RequestPart, @RequestAttribute, @ModelAttribute, @SessionAttribute
+  - (return types) => @ResponseBody, HttpEntity<B>, ResponseEntity<B>,HttpHeaders, String, View, Map, Model, @ModelAttribute, ModelAndView, void, DeferredResult<V>, Callable<V>, ListenableFuture<V>, CompletableFuture<V>, CompletionStage<V>, ResponseBodyEmitter, SseEmitter, StreamingResponseBody
+  
 **rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus
 
 **security** -> authorisation, authetication, WebSecurityConfigurerAdapter class, @EnableWebSecurity, DelegatingFilterProxy,** patter, antMatcher, mvcMatcher, @EnableGlobalMethodSecurity, @RolesAllowed, @PreFilter, @PostFilter, @PreAuthorize, @PostAuthorize
