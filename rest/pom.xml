@@ -18,6 +18,7 @@
         <module>rest-question04</module>
         <module>rest-question05</module>
         <module>rest-question06</module>
+        <module>rest-question07</module>
     </modules>
 
     <properties>
