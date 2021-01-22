@@ -22,6 +22,7 @@
         <module>rest-question08</module>
         <module>rest-question09</module>
         <module>rest-question10</module>
+        <module>rest-question11</module>
     </modules>
 
     <properties>
