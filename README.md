@@ -28,7 +28,7 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
   - (annotation types) => @RequestParam, @PathVariable, @MatrixVariable, @CookieValue, @RequestHeader, @RequestBody, @RequestPart, @RequestAttribute, @ModelAttribute, @SessionAttribute
   - (return types) => @ResponseBody, HttpEntity<B>, ResponseEntity<B>,HttpHeaders, String, View, Map, Model, @ModelAttribute, ModelAndView, void, DeferredResult<V>, Callable<V>, ListenableFuture<V>, CompletableFuture<V>, CompletionStage<V>, ResponseBodyEmitter, SseEmitter, StreamingResponseBody
   
-**rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus
+**rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus, @RequestMapping, stateless, 
 
 **security** -> authorisation, authetication, WebSecurityConfigurerAdapter class, @EnableWebSecurity, DelegatingFilterProxy,** patter, antMatcher, mvcMatcher, @EnableGlobalMethodSecurity, @RolesAllowed, @PreFilter, @PostFilter, @PreAuthorize, @PostAuthorize
 
