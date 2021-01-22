@@ -23,6 +23,7 @@
         <module>rest-question09</module>
         <module>rest-question10</module>
         <module>rest-question11</module>
+        <module>rest-question12</module>
     </modules>
 
     <properties>
