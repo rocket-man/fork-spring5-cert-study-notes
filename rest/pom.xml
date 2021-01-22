@@ -20,6 +20,7 @@
         <module>rest-question06</module>
         <module>rest-question07</module>
         <module>rest-question08</module>
+        <module>rest-question09</module>
     </modules>
 
     <properties>
