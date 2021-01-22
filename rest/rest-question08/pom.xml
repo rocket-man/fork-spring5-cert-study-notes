@@ -3,23 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-cert</artifactId>
+        <artifactId>rest</artifactId>
         <groupId>spring5-cert-study-notes</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rest</artifactId>
+    <artifactId>rest-question08</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>rest-question01</module>
-        <module>rest-question02</module>
-        <module>rest-question03</module>
-        <module>rest-question04</module>
-        <module>rest-question05</module>
-        <module>rest-question06</module>
-        <module>rest-question07</module>
-        <module>rest-question08</module>
+        <module>rest-question08-count-service</module>
+        <module>rest-question08-eureka</module>
+        <module>rest-question08-gateway</module>
     </modules>
 
     <properties>
