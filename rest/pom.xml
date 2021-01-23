@@ -30,6 +30,7 @@
         <module>rest-question16</module>
         <module>rest-question17</module>
         <module>rest-question18</module>
+        <module>rest-question19</module>
     </modules>
 
     <properties>
