@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>test-question01</module>
+        <module>test-question02</module>
     </modules>
 
     <properties>
