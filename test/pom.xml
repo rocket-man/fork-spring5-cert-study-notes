@@ -14,6 +14,7 @@
     <modules>
         <module>test-question01</module>
         <module>test-question02</module>
+        <module>test-question03</module>
     </modules>
 
     <properties>
