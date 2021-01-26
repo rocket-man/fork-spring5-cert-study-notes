@@ -3,22 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-cert</artifactId>
+        <artifactId>test</artifactId>
         <groupId>spring5-cert-study-notes</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>test</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>test-question01</module>
-        <module>test-question02</module>
-        <module>test-question03</module>
-        <module>test-question04</module>
-        <module>test-question05</module>
-        <module>test-question06</module>
-    </modules>
+    <artifactId>test-question06</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
