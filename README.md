@@ -26,7 +26,7 @@ https://www.ivankrizsan.se/my-books/ This awesome guy's book -> Core Spring 5 Ce
 **mvc** -> web layer, DispatcherServlet, annotations like @Controller, @RequestMapping, @GetMapping, @RequestParam, @PathVariable
   - (param types) => WebRequest, NativeWebRequest, ServletRequest, HttpSession, ServletResponse, PushBuilder, Principal, HttpMethod, Locale, TimeZone, InputStream, OutputStream, HttpEntity<T>, Map, Model, RedirectAttributes, Errors, BindingResult, SessionStatus, @SessionAttributes 
   - (annotation types) => @RequestParam, @PathVariable, @MatrixVariable, @CookieValue, @RequestHeader, @RequestBody, @RequestPart, @RequestAttribute, @ModelAttribute, @SessionAttribute
-  - (return types) => @ResponseBody, HttpEntity<T>, ResponseEntity<B>,HttpHeaders, String, View, Map, Model, @ModelAttribute, ModelAndView, void, DeferredResult<V>, Callable<V>, ListenableFuture<V>, CompletableFuture<V>, CompletionStage<V>, ResponseBodyEmitter, SseEmitter, StreamingResponseBody
+  - (return types) => @ResponseBody, HttpEntity<T>, ResponseEntity<T>, HttpHeaders, String, View, Map, Model, @ModelAttribute, ModelAndView, void, DeferredResult<V>, Callable<V>, ListenableFuture<V>, CompletableFuture<V>, CompletionStage<V>, ResponseBodyEmitter, SseEmitter, StreamingResponseBody
   
 **rest** ->  http, RestTemplate, annotations like @RequestBody, @ResponseBody, @ResponseStatus, @RequestMapping, stateless, stereotypes, @Controller, @RestController
 
