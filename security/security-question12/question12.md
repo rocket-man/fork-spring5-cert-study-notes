@@ -1,5 +1,6 @@
 # In which security annotation are you allowed to use SpEL?
 Spring security supports SpEL expressions in following annotations:
+
 -```@PreAuthorize```
 ```java
 @PreAuthorize("hasRole('ROLE_EMPLOYEE_CREATE') || 'TEST'.equals(#employee.getFirstName())")
