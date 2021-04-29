@@ -12,7 +12,7 @@ will be part of profile/profiles specified in annotation.
 - Use ```@Profile``` annotation to define custom annotation ```@Component, @Configuration, @Bean``` method annotated with custom
 annotation will be part of profile/profiles specified in annotation.
   
-If Bean does not have profile specified in any way, it will be created in every profile. You can use 'I' to specify in which 
+If Bean does not have profile specified in any way, it will be created in every profile. You can use '!' to specify in which 
 profile bean should not be created
 
 You can activate profiles in following way:
