@@ -124,7 +124,11 @@ These two annotations are part of the JSR-250 lifecycle annotations. Introduced 
 
 10. Combining Lifecycle mechanism
 
-You have three options for controlling bean life cycle: The InitializingBean and DisposableBean callback interfaces: custom init() and destroy() methods; and the @PostConstruct() and @PreDestroy() annotations.
+You have three options for controlling bean life cycle: 
+	1. the @PostConstruct() and @PreDestroy() annotations
+	2. The InitializingBean and DisposableBean callback interfaces 
+	3. custom init() and destroy() method  
+	
 
 Multiple lifecycle mechanisms configured for the same bean, with different initialization methods, are called as follow:
 - Method annotated with @PostConstruct
@@ -135,3 +139,40 @@ Destroy methods are called in the same order:
 - Methods annotated with @PreDestroy
 - destroy() as defined by DisposableBean callback interface
 - A custom configured destroy() method
+
+---
+
+11. @Entity annotation can only be annotated on classes
+
+---
+
+12. @ExtendedWith(SpringExtension.class) and @RunWith(SpringRunner.class) annotations. 
+
+If you are using JUnit4, don't forget to add @RunWith(SpringRunner.class) or @RunWith(MockitoJUnitRunner.class) to your test, otherwise the annotation will be ignored. If you are using JUnit5, there is no need to add the equivalent @ExtendedWith(SpringExtension.class) as @SpringBootTest and the other @...Test annotations are already annotated with it.
+
+---
+
+13. Differences between **@RolesAllowed**, **@PreAuthorize** and **@Secured**
+- These three annotations are securoty annotations which allow to configure method security
+- They can be applied both on individual methods or on class level.
+- Method-level security is accomplished using Spring AOP
+
+###@PreAuthorize
+Allows to specify access constraints to a method using the Spring Expression Language (SpEL). This method is evaluated prior to the method being executed 
+
+This annotation is part of Spring Security Framework
+
+In order to be able to use this annotation, @EnableGlobalMethodSecurity(prePostEnabled = true)
+
+###@RolesAllowed
+This annotations has its origin in the JSR-250 Java Security standard. This annotation is more limited than @PreAuthorized because it only supports role based security. SpEL expression is not allowed
+
+To be able to use this annotation the library must be in the classpath as it is not part of Spring Security.
+
+In order to be able to use this annotation, @EnableGlobalMethodSecurity(jsr250Enabled=true)
+
+###@Secured
+This is legacy Spring Security 2 annotation. It does not support SpEL and it is role-based. That is why the @PreAuthorize annotation is preferred to be used over these two annotations
+
+
+In order to be able to use this annotation, @EnableGlobalMethodSecurity(securedEnabled=true)
