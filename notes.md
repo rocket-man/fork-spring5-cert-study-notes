@@ -189,6 +189,8 @@ In order to be able to use this annotation, @EnableGlobalMethodSecurity(securedE
 
 You need to use @MockBean annotation together with @RunWith(SpringRunner.class) and @SpringBootTest for JUnit4 and for JUnit5 only @SpringBootTest is required since it already includes @ExtendWith(SpringExtension.class)
 
+---
+
 16. About Actuator endpoints
 
 By default, all endpoints except for **shutdown** are enabled.
@@ -212,3 +214,43 @@ management.endpoints.jmx.exposure.exclude|
 management.endpoints.jmx.exposure.include | *
 management.endpoints.web.exposure.exclude | 
 management.endpoints.web.exposure.include | info, health
+
+---
+
+17. JDK Dynamic Proxy and CGLIB Proxy 
+
+JDK Dynamic Proxy Limitations are:
+- Does not support self invocation
+- Class must implement interface (it can proxy final classes)
+- Only public interface methods implementing the interface will be proxied (has no limitations for final methods)
+
+CGLIB Proxy Limitation:
+- Does not support self invocation
+- Class for which proxy should be created cannot be final 
+- Method which should be proxied cannot be final
+- Only public, protected, package methods will be proxied
+- private methods are not proxied
+
+---
+
+18. About spring.factories
+
+https://docs.spring.io/spring-boot/docs/2.0.0.M3/reference/html/boot-features-developing-auto-configuration.html
+
+---
+
+19. Transaction propagation values
+##### Required
+is the default propagation. Spring checks if there is an active transaction, then it creates one if nothing existed. Otherwise, appends to the currenly active transaction
+##### Supports
+Spring checks if an active transaction exists. If a transaction esists, then the existing transaction will be used. If there isn't one, it is executed non transactional
+##### Mandatory
+If there is an active transaction, then it will be used. If there isn't an active transaction, then spring throws an expection
+##### Never
+Spring throws an exception if there is an active transaction
+##### Not_Supported
+Spring at first suspends the current transaction if it exists, then the business logic is executed without a transaction
+##### Requires_New
+Spring suspends the current transaction if it exists and then creates a new one
+##### Nested
+Spring checks if a transaction exists, then if yes, it marks a savepoint. This means if our business logic execution throws an exception, then transaction rollbacks to this savepoint. If there is no active transaction, it works like **REQUIRED** 
