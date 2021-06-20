@@ -157,22 +157,34 @@ If you are using JUnit4, don't forget to add @RunWith(SpringRunner.class) or @Ru
 - They can be applied both on individual methods or on class level.
 - Method-level security is accomplished using Spring AOP
 
-###@PreAuthorize
+#### @PreAuthorize
 Allows to specify access constraints to a method using the Spring Expression Language (SpEL). This method is evaluated prior to the method being executed 
 
 This annotation is part of Spring Security Framework
 
 In order to be able to use this annotation, @EnableGlobalMethodSecurity(prePostEnabled = true)
 
-###@RolesAllowed
+#### @RolesAllowed
 This annotations has its origin in the JSR-250 Java Security standard. This annotation is more limited than @PreAuthorized because it only supports role based security. SpEL expression is not allowed
 
 To be able to use this annotation the library must be in the classpath as it is not part of Spring Security.
 
 In order to be able to use this annotation, @EnableGlobalMethodSecurity(jsr250Enabled=true)
 
-###@Secured
+#### @Secured
 This is legacy Spring Security 2 annotation. It does not support SpEL and it is role-based. That is why the @PreAuthorize annotation is preferred to be used over these two annotations
 
 
 In order to be able to use this annotation, @EnableGlobalMethodSecurity(securedEnabled=true)
+
+---
+
+14. Because @RestController is annotated internally with @ResponseBody all of the method within a class annotated with @RestController will return a serialized response
+
+---
+
+15. Difference between **@Mock**, **@MockBean** and **@InjectMock**
+
+@MockBean creates a mock and injects it into the ApplicationContext, while @Mock annotation only creates it, if you want to inject it, you can do it manually or with @InkectMock annotation, however, injection is being done to the class not the whole ApplicationCotext.
+
+You need to use @MockBean annotation together with @RunWith(SpringRunner.class) and @SpringBootTest for JUnit4 and for JUnit5 only @SpringBootTest is required since it already includes @ExtendWith(SpringExtension.class)
