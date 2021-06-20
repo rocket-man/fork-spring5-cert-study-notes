@@ -1,3 +1,5 @@
+# Randomly taken study notes
+
 1. In Spring AOP, which of these can prevent execution from proceeding to the join point ? Select all that apply.
 
   ##### A) Before Advice
