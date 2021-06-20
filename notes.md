@@ -188,3 +188,27 @@ In order to be able to use this annotation, @EnableGlobalMethodSecurity(securedE
 @MockBean creates a mock and injects it into the ApplicationContext, while @Mock annotation only creates it, if you want to inject it, you can do it manually or with @InkectMock annotation, however, injection is being done to the class not the whole ApplicationCotext.
 
 You need to use @MockBean annotation together with @RunWith(SpringRunner.class) and @SpringBootTest for JUnit4 and for JUnit5 only @SpringBootTest is required since it already includes @ExtendWith(SpringExtension.class)
+
+16. About Actuator endpoints
+
+By default, all endpoints except for **shutdown** are enabled.
+
+To configure, the enablement of an endpoint, use this property ```management.endpoint.<id>.enabled```
+
+``` management.endpoint.shutdown.enabled=true ```
+
+If you prefer endpoint enablement to be opt-in rather than opt-out, set the ``` management.endpoints.enabled-by-default``` property to false and use individual enable property to opt back in. The following, enables info and disables all of the other endpoints.
+
+```
+management.endpoints.enabled-by-default=false
+management.endpoint.info.enabled=true
+```
+
+To change which endpoints are exposed, use the following Technology specific include and exclude properties:
+
+Property | Default
+------------ | -------------
+management.endpoints.jmx.exposure.exclude| 
+management.endpoints.jmx.exposure.include | *
+management.endpoints.web.exposure.exclude | 
+management.endpoints.web.exposure.include | info, health
