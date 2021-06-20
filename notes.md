@@ -259,4 +259,26 @@ Spring at first suspends the current transaction if it exists, then the business
 ##### Requires_New
 Spring suspends the current transaction if it exists and then creates a new one
 ##### Nested
-Spring checks if a transaction exists, then if yes, it marks a savepoint. This means if our business logic execution throws an exception, then transaction rollbacks to this savepoint. If there is no active transaction, it works like **REQUIRED** 
+Spring checks if a transaction exists, then if yes, it marks a savepoint. This means if our business logic execution throws an exception, then transaction rollbacks to this savepoint. If there is no active transaction, it works like **Required** 
+
+---
+
+20. Health endpoint
+
+See https://www.baeldung.com/spring-boot-health-indicators
+
+By default, Spring Boot defines 4 different statuses. More can be added if desired:
+
+##### DOWN
+The component is not working
+
+##### OUT_OF_SERVICE
+The component is out of service temporarily
+
+##### UP
+The component is working as expected
+
+##### UNKNOWN
+The component is unknown 
+
+The health status affects the HTTP Status code of the health endpoint. By default, Spring Boot maps DOWN and OUT_OF_SERVICE states to throw a 503 status code. On the other hand, UP and any other unmapped statuses will be translated to a 200 OK status code
