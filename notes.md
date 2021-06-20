@@ -1,4 +1,5 @@
 1. In Spring AOP, which of these can prevent execution from proceeding to the join point ? Select all that apply.
+
   ##### A) Before Advice
   ##### B) After Returning Advice
   ##### C) After Throwing Advice
@@ -6,12 +7,12 @@
 
   Correct Answer: A, D
   
-  If the Before Advice throws an exception, the join point will not be called. By not calling the 'proceed()' on the ProceedingjoinPoint param of the Around Advice 
-  method, the join point (target method) will not be executed. 'After Returning Advice' and 'After Throwing Advice' are involved only after the execution of the join point.
+  If the Before Advice throws an exception, the join point will not be called. By not calling the 'proceed()' on the ProceedingjoinPoint param of the Around Advice method, the join point (target method) will not be executed. 'After Returning Advice' and 'After Throwing Advice' are involved only after the execution of the join point.
   
   ---
   
-2.   Which of these advices, when used, will have a chance to execute some code before the join point is executed ? Select all that apply.
+2. Which of these advices, when used, will have a chance to execute some code before the join point is executed ? Select all that apply.
+
    ##### A) @AfterReturning
    ##### B) @Before
    ##### C) @Around
@@ -35,5 +36,34 @@
 
 Note that, the class constructor method is called before doing dependency injection.
 
+---
 
-5. 
+5. Which of these advices, when used, will always have a chance to execute some code after the join point execution, regardless on if the execution completes normally or throws an exception ?
+
+   ##### A) @AfterReturning
+   ##### B) @AfterThrowing
+   ##### C) @Around
+   ##### D) @After 
+   
+   Correct Answer: C, D
+   
+   @AfterReturning advices are executed only if the target method completes normally (without exception thrown)
+   
+   @AfterThrowing advices are executed only if the target method completed abnormally (with exception thrown)
+   
+   ---
+   
+6. Which of these advices, will have a chance to execute some code after the join point execution throws an exception ? Select all that apply.
+
+   ##### A) @AfterReturning
+   ##### B) @AfterThrowing
+   ##### C) @Around
+   ##### D) @After 
+   
+   Correct Answer: B, C, D
+   
+   @AfterReturning advices are executed only if the target method completes normally (without exception thrown). If you only need to add some actions if an exception is thrown, the simplest one to use is @AfterThrowing
+   
+---
+
+7. 
