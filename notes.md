@@ -240,6 +240,12 @@ https://docs.spring.io/spring-boot/docs/2.0.0.M3/reference/html/boot-features-de
 ---
 
 19. Transaction propagation values
+
+@Transactional(propagation = Propagation.REQUIRED)
+public void transactionalExample(String user) { 
+    // ... 
+}
+
 ##### Required
 is the default propagation. Spring checks if there is an active transaction, then it creates one if nothing existed. Otherwise, appends to the currenly active transaction
 ##### Supports
