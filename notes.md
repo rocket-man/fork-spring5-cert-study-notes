@@ -1,4 +1,4 @@
-# Randomly taken study notes
+# Randomly taken enumerated study points
 
 1. In Spring AOP, which of these can prevent execution from proceeding to the join point ? Select all that apply.
 
